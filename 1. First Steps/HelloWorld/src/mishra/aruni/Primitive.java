@@ -3,6 +3,7 @@ package mishra.aruni;
 import java.math.BigDecimal;
 
 public class Primitive {
+    static int instaceVariable;
     public static void main(String[] args) {
 
         int myMinInteger = Integer.MIN_VALUE;
@@ -30,6 +31,24 @@ public class Primitive {
         BigDecimal myBiGBigDecimal = BigDecimal.TEN;
 
         System.out.println(myBiGBigDecimal);
+
+        char myChar = 'a';
+        char myUnicodeChar = '\u0905';
+        System.out.println(myUnicodeChar);
+
+        String s = "HELLO ";
+        s = s + "world " + '\u0905';
+        System.out.println(s);
+
+        int result = 1;
+        result += 1;
+        int value;
+        System.out.println(instaceVariable);
+        if(result !=2){
+
+        }
+
+
 
     }
 }
