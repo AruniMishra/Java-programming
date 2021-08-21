@@ -7,7 +7,17 @@ public class HelloWorld {
         System.out.println("hello World");
         System.out.println("args = " + Arrays.deepToString(args));
 
-        SpeedConverter speedConverter = new SpeedConverter();
-        speedConverter.printConversion(95.75);
+//        SpeedConverter speedConverter = new SpeedConverter();
+//        speedConverter.printConversion(95.75);
+
+
+        NumberOfDaysInMonth leapYear = new NumberOfDaysInMonth();
+        System.out.println( leapYear.isLeapYear(1600));
+
+        System.out.println(leapYear.getDaysInMonth(12,10000));
+
     }
+
+
+
 }
