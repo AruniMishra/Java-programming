@@ -10,11 +10,9 @@ public class HelloWorld {
 //        SpeedConverter speedConverter = new SpeedConverter();
 //        speedConverter.printConversion(95.75);
 
+        System.out.println( NumberOfDaysInMonth.isLeapYear(1600));
 
-        NumberOfDaysInMonth leapYear = new NumberOfDaysInMonth();
-        System.out.println( leapYear.isLeapYear(1600));
-
-        System.out.println(leapYear.getDaysInMonth(12,10000));
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(12,10000));
 
     }
 
