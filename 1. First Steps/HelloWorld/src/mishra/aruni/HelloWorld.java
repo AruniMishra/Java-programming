@@ -10,9 +10,13 @@ public class HelloWorld {
 //        SpeedConverter speedConverter = new SpeedConverter();
 //        speedConverter.printConversion(95.75);
 
-        System.out.println( NumberOfDaysInMonth.isLeapYear(1600));
+//        System.out.println( NumberOfDaysInMonth.isLeapYear(1600));
+//
+//        System.out.println(NumberOfDaysInMonth.getDaysInMonth(12,10000));
 
-        System.out.println(NumberOfDaysInMonth.getDaysInMonth(12,10000));
+        //System.out.println(SumDigit.sumDigits(91345));
+        System.out.println( SumFirstAndLastDigit.sumFirstAndLastDigit(23251));
+
 
     }
 
